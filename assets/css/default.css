@@ -481,7 +481,7 @@ height: 100%;
 }
 
 .frontpage {
-background-image: url(../img/home_page.png)
+background-image: url(../assets/img/home_page.png)
 }
 
 @-webkit-keyframes fadeInDown {
@@ -970,7 +970,7 @@ letter-spacing: 3pt;
 }
 
 .editorial_body {
-  background-image: url(../img/motely_page.jpg);
+  background-image: url(../assets/img/motely_page.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -1110,20 +1110,20 @@ float: right;
 }
 
 .carousel-item--1 .carousel-item__image{
-background-image: url('../img/carousel_one.jpg');
+background-image: url('../assets/img/carousel_one.jpg');
 }
 
 
 .carousel-item--2 .carousel-item__image{
-background-image: url('../img/carousel_two.jpg');
+background-image: url('../assets/img/carousel_two.jpg');
 }
 
 .carousel-item--3 .carousel-item__image{
-background-image: url('../img/carousel_three.jpg');
+background-image: url('../assets/img/carousel_three.jpg');
 }
 
 .carousel-item--4 .carousel-item__image{
-background-image: url('../img/carousel_four.jpg');
+background-image: url('../assets/img/carousel_four.jpg');
 }
 
 
@@ -1288,7 +1288,7 @@ width: 100%;
 }
 
 .strength_body {
-background-image: url(../img/strength_page.jpg);
+background-image: url(../assets/img/strength_page.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
 height: 100%;
@@ -1313,7 +1313,7 @@ padding-bottom: 2vw;
 }
 
 .fashion_page {
-background-image: url(../img/fashion_page.jpg);
+background-image: url(../assets/img/fashion_page.jpg);
 background-size: 100%;
 background-repeat: no-repeat;
 width: 100%;
