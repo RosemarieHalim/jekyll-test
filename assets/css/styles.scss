@@ -1,0 +1,21 @@
+--- 
+---
+
+// Need the above so that Jekyll knows what to do with the markdown
+// Below we seperate out our styles into different files that we can have control over
+
+@import "var";  // we will create a variables style sheet to allow us to store site wide variabels
+@import "main"; // we will create a site wide style sheet to contain larger global style items
+@import "nav"; // this is nav style sheet
+@import "slider"; // this is the slider and carousel style sheet
+
+
+
+
+
+
+
+// THIS IS GOING TO GO LAST ALL THE TIME
+@import "media-query"; // ALL MY MEDIA QUERIES GO HERE - ALL YOUR BASE BELONG TO US. 
+
+// We can continue this pattern, and create specific style sheets for specific areas of our site.

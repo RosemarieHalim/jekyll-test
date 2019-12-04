@@ -1,0 +1,10 @@
+// Here we can set variables that can be used site wide.
+// here we are createing a variable called $base-color this will allow 
+// us to use this in place of the actual name
+
+$base-color: #141414; 
+
+
+// We can also use this area to import some basic elemets like fonts
+// Font Imports
+@import url('https://fonts.googleapis.com/css?family=Cabin|Roboto:300&display=swap');

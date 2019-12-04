@@ -1,0 +1,426 @@
+// Portfolio Page
+
+@media screen and (max-width: 569px) {
+    .pic { 
+        display: flex;
+        z-index: 2;
+      }
+    
+      header { 
+        width:100%;
+        background:#252525;
+        color:rgb(255, 255, 255);
+        z-index: 2;
+      }
+      .portfolio {
+        text-align: center;
+        padding-top: 5vw;
+      }
+
+      header h1 {
+        position: relative;
+        display: block;
+        margin-top: 60%;
+        font-size: 20vw;
+        text-align: center;
+        left: -30px;
+      }
+      
+      .Quick-navigation {
+        position: fixed;
+        z-index: 1;
+        margin: 0;
+        top: 50%;
+        right: 10px;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+  }
+
+  .image button {
+    left: 30%;
+  }
+}
+
+
+  /* Contact Page*/
+
+  @media screen and (max-width: 760px) {
+    #contact {
+        height: 1000px;
+    }
+  .section-header {
+    font-size: 65px;
+  }
+  .direct-contact-container, .form-horizontal {
+    float: none;
+    width: 100%;
+  }  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }    
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  #contact {
+    height: 100%;
+    }
+  .section-header{
+    font-size: 50px;
+  }
+  .direct-contact-container, .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }  
+  .form-control, textarea {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .name, .email, .message textarea {
+    /* width: 280px; */
+    margin: 0 auto;
+  } 
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 100%;
+  }  
+  .social-media-list {
+    left: 0;
+  }
+  .social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+  }
+  .social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+
+  .contact-wrapper {
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+
+  .form-horizontal {
+    display: inline-block;
+    position: relative;
+    padding-top: 75px;
+  }
+  
+  .header {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  .send-button {
+    width: 100%;
+  }
+
+  .list-item {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .social-media-list {
+    padding-left: 0;
+    font-size: 2rem;
+  }
+
+  .contact-text {
+    font: 300 12px 'Montserrat';
+    letter-spacing: 1.5px;
+    color: #bbb;
+    position: relative;
+    margin-left: 15px;
+  }
+
+  .fa-2x {
+    font-size: 14pt;
+  }
+  
+}
+
+@media screen and (max-width: 410px) {
+  .contact-wrapper {
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+
+  .form-horizontal {
+    display: inline-block;
+    position: relative;
+    padding-top: 75px;
+  }
+  
+  .header {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  #contact {
+    height: 100%;
+  }
+  
+  .send-button {
+    width: 100%;
+  }
+
+  .list-item {
+    max-width: 100%;
+  }
+
+  .social-media-list {
+    padding-left: 0;
+    font-size: 1rem;
+  }
+
+  .contact-text {
+    font: 300 10px 'Montserrat';
+    letter-spacing: 1.5px;
+    color: #bbb;
+    position: relative;
+    margin-left: 15px;
+  }
+
+  .fa-2x {
+    font-size: 10pt;
+  }
+}
+
+// Atelier
+
+@media screen and (max-width: 569px) {
+  .para {
+    font-size: 10.25pt;
+    margin-bottom: 0;
+  }
+
+  .head {
+    text-align: center;
+    font-size: 12pt;
+    line-height: 20pt;
+  }
+
+  .design_para_one {
+    text-align: left;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(181, 184, 193), rgb(227, 229, 242), rgb(181, 184, 193)); 
+  }
+
+  .carousel-item__info {
+     height: 100%;
+     width: 50%;
+  }
+
+  .carousel-item__image {
+    width: 50%;
+  }
+
+  .carousel-item__description {
+  font-size: 7pt;
+  line-height: 10pt;
+  margin-top: 0pt;
+  margin-bottom: 0;
+  }
+
+  .carousel-item__subtitle {
+    font-size: 7pt;
+    letter-spacing: 0pt;
+  }
+
+  .carousel-item__title {
+    font-size: 14pt;
+    line-height: 16pt;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+
+  .project_slide_editorial {
+    position: relative;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .post-tiles .single-tile .description .secondary {
+    font: normal 2vw 'Montserrat';
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .post-tiles .single-tile .description {
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+  }
+
+  .post-tiles, .shop-tiles {
+    margin-bottom: 0px;
+    clear: both;
+    font-size: 0;
+    padding-bottom: 0;
+  }
+
+  .design_para_four {
+    text-align: left;
+    padding-left: 10%;
+    padding-right:10%;
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(164, 175, 167), rgb(194, 200, 196));
+  }
+
+  .fashion_img img {
+    width: 70vw;
+    padding: 5vw;
+  }
+
+  .fashion_img {
+    background-image: linear-gradient(to right, rgb(164, 175, 167), rgb(194, 200, 196));
+  }
+
+  .fashion_page {
+    background-image: linear-gradient(to right, rgb(164, 175, 167), rgb(194, 200, 196));
+  }
+
+  .project_slide_atelier {
+    background-image: linear-gradient(to right, rgb(164, 175, 167), rgb(194, 200, 196));
+  }
+
+  .design_para_three {
+    background-image: linear-gradient(to right, rgb(129, 129, 129), rgb(184, 184, 184), rgb(180, 180, 180));
+  }
+
+}
+
+// EDITORIAL
+
+ @media screen and (max-width: 569px) {
+    .para {
+      font-size: 10.25pt;
+      margin-bottom: 0;
+    }
+  
+    .head {
+      text-align: center;
+      font-size: 12pt;
+      line-height: 20pt;
+    }
+  
+    .design_para_one {
+      text-align: left;
+      padding-left: 10%;
+      padding-right:10%;
+      padding-top: 50px;
+      position: relative;
+      width: 100%;
+      background-image: linear-gradient(to right, rgb(181, 184, 193), rgb(227, 229, 242), rgb(181, 184, 193)); 
+    }
+  
+    .carousel-item__info {
+       height: 100%;
+       width: 50%;
+    }
+  
+    .carousel-item__image {
+      width: 50%;
+    }
+  
+    .carousel-item__description {
+    font-size: 7pt;
+    line-height: 10pt;
+    margin-top: 0pt;
+    margin-bottom: 0;
+    }
+  
+    .carousel-item__subtitle {
+      font-size: 7pt;
+      letter-spacing: 0pt;
+    }
+  
+    .carousel-item__title {
+      font-size: 14pt;
+      line-height: 16pt;
+      margin-top: 0;
+      margin-bottom: 2px;
+    }
+  
+    .project_slide_editorial {
+      position: relative;
+      padding-top: 0px;
+      width: 100%;
+    }
+  
+    .post-tiles .single-tile .description .secondary {
+      font: normal 2vw 'Montserrat';
+      padding-bottom: 5px;
+      text-align: center;
+    }
+  
+    .post-tiles .single-tile .description {
+      height: 60px;
+      padding: 5px;
+      text-align: center;
+      color: black;
+    }
+  
+    .post-tiles, .shop-tiles {
+      margin-bottom: 0px;
+      clear: both;
+      font-size: 0;
+      padding-bottom: 0;
+    }
+  
+    .design_para_four {
+      text-align: left;
+      padding-left: 10%;
+      padding-right:10%;
+      position: relative;
+      width: 100%;
+      background-image: linear-gradient(to right, rgb(164, 175, 167), rgb(194, 200, 196));
+    }
+  
+    .fashion_img img {
+      width: 70vw;
+      padding: 5vw;
+    }
+  
+    .fashion_img {
+      background-image: linear-gradient(to right, rgb(164, 175, 167), rgb(194, 200, 196));
+    }
+  
+    .fashion_page {
+      background-image: linear-gradient(to right, rgb(164, 175, 167), rgb(194, 200, 196));
+    }
+  
+    .project_slide_atelier {
+      background-image: linear-gradient(to right, rgb(164, 175, 167), rgb(194, 200, 196));
+    }
+  
+    .design_para_three {
+      background-image: linear-gradient(to right, rgb(129, 129, 129), rgb(184, 184, 184), rgb(180, 180, 180));
+    }
+  
+  }
