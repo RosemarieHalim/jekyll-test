@@ -4,7 +4,7 @@ html {
 } 
 
 .pagestyle {
-background: rgb(15, 14, 14);
+background: #242424;
 }
 
 /* Slider to switch Project Pages */
@@ -438,36 +438,36 @@ background: #fff
 /* About Page */
 
 .box {
-display: block;
-max-width: 500vw;
-box-sizing: border-box;
-border-radius: 4px;
-margin: 0 auto;
-padding-top: 3vw;
-text-align: center;
+  display: block;
+  max-width: 500vw;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding-top: 3vw;
+  text-align: center;
 }
 
 .imgbox {
-display: inline-block;
+  display: inline-block;
 }
 
 .img_me {
-width: 25vw;
-vertical-align: 0;
-padding: 1vw;
+  width: 25vw;
+  vertical-align: 0;
+  padding: 1vw;
 }
 
 .aboot {
-font-size: 13pt;
-line-height: 23pt;
-text-align: left;
+  font-size: 13pt;
+  line-height: 23pt;
+  text-align: left;
 }
 
 .aboot_box {
-vertical-align: top;
-max-width: 750px;
-display: inline-block;
-padding: 0.5vw;
+  vertical-align: top;
+  max-width: 750px;
+  display: inline-block;
+  padding: 0.5vw;
 }
 
 /* Main Page */
@@ -481,7 +481,7 @@ height: 100%;
 }
 
 .frontpage {
-background-image: url(../img/home_page.png)
+background-image: url(../assets/img/home_page.png)
 }
 
 @-webkit-keyframes fadeInDown {
@@ -552,6 +552,7 @@ color: #FFF;
   float:left;
   width:70%;
   margin:5% 15%;
+  padding:2em 0;
   color: #FFF;
 }
 
@@ -688,7 +689,7 @@ letter-spacing: 3pt;
 }
 
 .overlay.open {
-  opacity: .95;
+  opacity: .98;
   visibility: visible;
   height: 100%;
   z-index: 100;
@@ -718,7 +719,7 @@ letter-spacing: 3pt;
 .overlay nav {
   position: relative;
   height: 50%;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
   font-size: 50px;
   font-family: 'Montserrat';
@@ -777,336 +778,6 @@ letter-spacing: 3pt;
 
 
 
-/* This is Experience Page */
-
-.experience_pagestyle {
-  margin: 0px;
-  padding: 0;
-}
-
-.experience {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-#left {
-  float: left;
-  width: 350px;
-  margin-top: 110px;
-  transform: scale(1.3);
-  /* border: white 1px solid; */
-}
-
-#right {
-  float: right;
-  width: 350px;
-  margin-top: 110px;
-  transform: scale(1.3);
-  /* border: white 1px solid; */
-}
-
-body {
-  margin:0;
-  font-size:1.3em;
-  color:#333;
-  font-family:'Montserrat';
-}
-
-h2 {
-  color: #fff;
-  margin-left: 0px;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-.skills-bar-container {
-  position: relative;
-  margin: 5% auto;
-  list-style: none;
-  padding: 0;
-}
-
-.skills-bar-container li {
-  background: #666666;
-  position: relative;
-  width: 100%;
-  height: 3px;
-  margin-bottom: 35px;
-  margin-top: 8px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.skills-bar-container label {
-  color: #fff;
-  position: relative;
-  margin-left: 0px;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.progressbar {
-  position: absolute;
-  width: 0%;
-  height: 100%;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@media screen and (max-width: 569px){
-#left {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  padding: 10px;
-}
-
-#right {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  padding: 10px;
-}
-
-.skills-bar-container li {
-  min-width: 100%;
-}
-}
-
-
-#progress-htmlcss {
-  -webkit-animation-name: progress-htmlcss;
-  animation-name: progress-htmlcss;
-  -webkit-animation-delay: .7s;
-  animation-delay: .7s;
-}
-
-#progress-jsjq {
-  -webkit-animation-name: progress-jsjq;
-  animation-name: progress-jsjq;
-  -webkit-animation-delay: 1.4s;
-  animation-delay: 1.4s;
-}
-
-#progress-layout {
-  -webkit-animation-name: progress-layout;
-  animation-name: progress-layout;
-  -webkit-animation-delay: 2.1s;
-  animation-delay: 2.1s;
-}
-
-#progress-typography {
-  -webkit-animation-name: progress-typography;
-  animation-name: progress-typography;
-  -webkit-animation-delay: 2.8s;
-  animation-delay: 2.8s;
-}
-
-#progress-illustration {
-  -webkit-animation-name: progress-illustration;
-  animation-name: progress-illustration;
-  -webkit-animation-delay: 3.6s;
-  animation-delay: 3.6s;
-}
-
-#progress-photoshop {
-  -webkit-animation-name: progress-photoshop;
-  animation-name: progress-photoshop;
-  -webkit-animation-delay: .7s;
-  animation-delay: .7s;
-}
-
-#progress-illustrator {
-  -webkit-animation-name: progress-illustrator;
-  animation-name: progress-illustrator;
-  -webkit-animation-delay: 1.4s;
-  animation-delay: 1.4s;
-}
-
-#progress-indesign {
-  -webkit-animation-name: progress-indesign;
-  animation-name: progress-indesign;
-  -webkit-animation-delay: 2.1s;
-  animation-delay: 2.1s;
-}
-
-#progress-dreamweaver {
-  -webkit-animation-name: progress-dreamweaver;
-  animation-name: progress-dreamweaver;
-  -webkit-animation-delay: 2.8s;
-  animation-delay: 2.8s;
-}
-
-#progress-ae {
-  -webkit-animation-name: progress-ae;
-  animation-name: progress-ae;
-  -webkit-animation-delay: 3.6s;
-  animation-delay: 3.6s;
-}
-
-.progressblue {
-  background-color:  rgb(206, 148, 148);
-}
-
-@-webkit-keyframes progress-htmlcss {
-  0% {width: 0%;}
-  100% {width: 60%;}
-}
-
-@-webkit-keyframes progress-jsjq {
-  0% {width: 0%;}
-  100% {width: 40%;}
-}
-
-@-webkit-keyframes progress-layout {
-  0% {width: 0%;}
-  100% {width: 80%;}
-}
-
-@-webkit-keyframes progress-typography {
-  0% {width: 0%;}
-  100% {width: 75%;}
-}
-
-@-webkit-keyframes progress-illustration {
-  0% {width: 0%;}
-  100% {width: 75%;}
-}
-
-@-webkit-keyframes progress-photoshop {
-  0% {width: 0%;}
-  100% {width: 75%;}
-}
-
-@-webkit-keyframes progress-illustrator {
-  0% {width: 0%;}
-  100% {width: 80%;}
-}
-
-@-webkit-keyframes progress-indesign {
-  0% {width: 0%;}
-  100% {width: 70%;}
-}
-
-@-webkit-keyframes progress-dreamweaver {
-  0% {width: 0%;}
-  100% {width: 60%;}
-}
-
-@-webkit-keyframes progress-ae {
-  0% {width: 0%;}
-  100% {width: 15%;}
-}
-
-@-moz-keyframes progress-htmlcss {
-  0% {width: 0%;}
-  100% {width: 60%;}
-}
-
-@-moz-keyframes progress-jsjq {
-  0% {width: 0%;}
-  100% {width: 40%;}
-}
-
-@-moz-keyframes progress-layout {
-  0% {width: 0%;}
-  100% {width: 80%;}
-}
-
-@-moz-keyframes progress-typography {
-  0% {width: 0%;}
-  100% {width: 75%;}
-}
-
-@-moz-keyframes progress-illustration {
-  0% {width: 0%;}
-  100% {width: 75%;}
-}
-
-@-moz-keyframes progress-photoshop {
-  0% {width: 0%;}
-  100% {width: 75%;}
-}
-
-@-moz-keyframes progress-illustrator {
-  0% {width: 0%;}
-  100% {width: 80%;}
-}
-
-@-moz-keyframes progress-indesign {
-  0% {width: 0%;}
-  100% {width: 70%;}
-}
-
-@-moz-keyframes progress-dreamweaver {
-  0% {width: 0%;}
-  100% {width: 60%;}
-}
-
-@-moz-keyframes progress-ae {
-  0% {width: 0%;}
-  100% {width: 15%;}
-}
-
-@keyframes progress-htmlcss {
-  0% {width: 0%;}
-  100% {width: 60%;}
-}
-
-@keyframes progress-jsjq {
-  0% {width: 0%;}
-  100% {width: 40%;}
-}
-
-@keyframes progress-layout {0% 
-  {width: 0%;}
-  100% {width: 80%;}
-}
-
-@keyframes progress-typography {0% 
-  {width: 0%;}
-  100% {width: 75%;}
-}
-
-@keyframes progress-illustration {0% 
-  {width: 0%;}
-  100% {width: 75%;}
-}
-
-@keyframes progress-photoshop {
-  0% {width: 0%;}
-  100% {width: 75%;}
-}
-
-@keyframes progress-illustrator {
-  0% {width: 0%;}
-  100% {width: 80%;}
-}
-
-@keyframes progress-indesign {
-  0% {width: 0%;}
-  100% {width: 70%;}
-}
-
-@keyframes progress-dreamweaver {
-  0% {width: 0%;}
-  100% {width: 60%;}
-}
-
-@keyframes progress-ae {
-  0% {width: 0%;}
-  100% {width: 15%;}
-}
-
-
 /* This is Contact Page */
 
 .section-header {
@@ -1150,7 +821,7 @@ h2 {
   font-size: 1rem;
   line-height: 1.5;
   color: #495057;
-  background-color: rgb(15, 14, 14);
+  background-color: #242424;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: .25rem;
@@ -1255,7 +926,7 @@ h2 {
   line-height: 70px;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(39, 37, 37);
+  background-color: rgb(27,27,27);
   cursor: pointer; 
   transition: all .2s ease-in-out;
 }
@@ -1282,8 +953,6 @@ h2 {
 
 
 
-
-
 /* Editorial Page */
 
 
@@ -1301,7 +970,7 @@ h2 {
 }
 
 .editorial_body {
-  background-image: url(../img/motely_page.jpg);
+  background-image: url(../assets/img/motely_page.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -1338,6 +1007,10 @@ h2 {
   width: 100%;
   height: 100%;
   position: relative;
+  /* display: flex;
+  max-width: 900px;
+  max-height: 550px;   
+  overflow: hidden; */
 }
 
 .carousel-item {
@@ -1437,20 +1110,20 @@ float: right;
 }
 
 .carousel-item--1 .carousel-item__image{
-background-image: url('../img/carousel_one.jpg');
+background-image: url('../assets/img/carousel_one.jpg');
 }
 
 
 .carousel-item--2 .carousel-item__image{
-background-image: url('../img/carousel_two.jpg');
+background-image: url('../assets/img/carousel_two.jpg');
 }
 
 .carousel-item--3 .carousel-item__image{
-background-image: url('../img/carousel_three.jpg');
+background-image: url('../assets/img/carousel_three.jpg');
 }
 
 .carousel-item--4 .carousel-item__image{
-background-image: url('../img/carousel_four.jpg');
+background-image: url('../assets/img/carousel_four.jpg');
 }
 
 
@@ -1615,7 +1288,7 @@ width: 100%;
 }
 
 .strength_body {
-background-image: url(../img/strength_page.jpg);
+background-image: url(../assets/img/strength_page.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
 height: 100%;
@@ -1640,7 +1313,7 @@ padding-bottom: 2vw;
 }
 
 .fashion_page {
-background-image: url(../img/fashion_page.jpg);
+background-image: url(../assets/img/fashion_page.jpg);
 background-size: 100%;
 background-repeat: no-repeat;
 width: 100%;
@@ -1658,7 +1331,7 @@ width: 100%;
 position: relative;
 margin: 0 auto;
 text-align: center;
-padding: 50px;
+padding-top: 50px;
 }
 
 .fashion_img img {
@@ -1704,7 +1377,7 @@ pre {
 }
 
 p {
-  color:white;
+  color:#555;
   font-size:16pt;
 }
 
